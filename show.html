@@ -111,14 +111,14 @@
 </div>
 <canvas class="canvas" width="1820" height="905"></canvas>
 <p class="text" style="color: #ed3073;">
-    再不看，倒计时关闭了
+    时间已经过去了
     <br/>
     <span id="span_dt_dt"></span>
 </p>
 <script language="javascript">
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
-        BirthDay = new Date("6/14/2023 13:14:52");//这个日期是可以修改的
+        BirthDay = new Date("05/09/2020 00:00:00");//这个日期是可以修改的
         today = new Date();
         timeold = (BirthDay.getTime() - today.getTime());
         sectimeold = timeold / 1000
@@ -142,7 +142,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
             //想说的话
-            S.UI.simulate("姚|我|好想|你|呀|真的|好想|#countdown 3|#time");
+            S.UI.simulate("小姚|I|miss|you|呀|真的|miss|#countdown 3|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });

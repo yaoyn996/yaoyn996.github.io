@@ -17,6 +17,8 @@
       href="/content-search.xml"
       title="百度搜索"
     />
+    <title>I miss U
+    </title>
     <script>
       var _hmt = _hmt || [];
       (function() {
@@ -26,8 +28,6 @@
         s.parentNode.insertBefore(hm, s);
       })();
       </script>
-      
-    <title>我喜欢你_百度搜索</title>
     <style data-for="result" type="text/css" id="css_newi_result">
       body {
         color: #333;
@@ -298,8 +298,7 @@
       .btn,
       #page,
       .page1,
-      .page3,
-      .page4 {
+      .page2 {
         display: inline-block !important;
         position: relative;
         top: -10px;
@@ -307,6 +306,9 @@
         text-align: center;
         line-height: 36px;
         cursor: pointer;
+      }
+      .page2{
+        left: 0px;
       }
       #more {
         font-size: 14px;
@@ -10894,48 +10896,7 @@
             </div>
           </div>
           <div id="content_left">
-            <div
-              class="result c-container"
-              id="1"
-              srcid="1599"
-              tpl="se_com_default"
-              data-click="{'rsv_bdr':'0' }"
-            >
-              <h3 class="t">
-                <a
-                  data-click="{
-            'F':'778317EA',
-            'F1':'9D73F1E4',
-            'F2':'6CA6DD6B',
-            'F3':'54E5263F',
-            'T':'1589442239',
-                        'y':'FFB95FFF'
-                                                }"
-                  href="javascript:;"
-                  target="_self"
-                  >洗完头的你</a
-                >
-              </h3>
-              <div class="c-row c-gap-top-small">
-                <div class="general_image_pic c-span6">
-                  <a class="c-img6" href="javascript:;" target="_self"
-                    ><img class="c-img c-img6" src="images/pic-2.jpeg" "></a
-                  >
-                </div>
-                <div class="c-span18 c-span-last">
-                  <div class="c-abstract">洗完头怎么变的更好看了</div>
-                  <div class="f13">
-                    <a
-                      target="_self"
-                      href="javascript:;"
-                      class="c-showurl"
-                      style="text-decoration: none"
-                      >下午班嘛不上去洗头，洗完头嘛回去加班，加完班嘛，火锅都没得吃</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
+
             <div
               class="result-op c-container xpath-log"
               srcid="1547"
@@ -10946,13 +10907,16 @@
               data-click="{'p1':'3','rsv_bdr':'0','fm':'albk',rsv_stl:''}"
             >
               <h3 class="t c-gap-bottom-small">
-                <a href="javascript:;" target="_self"> <em>好不开心</em></a>
+                <a href="javascript:;" target="_self"> <em>发烧不影响可爱，但是不能喝酒哦</em></a>
               </h3>
               <div class="c-row c-gap-top-small">
                 <div class="general_image_pic">
                   <a href="javascript:;" target="_self"
-                    ><img class="c-img" style="width: 500px;height: auto;"
-                    src="images/pic33.jpeg" "></a
+                    ><img class="c-img" style="width: 400px;height: auto;"
+                    src="images/a.jpg" "></a
+                  >
+                  <img class="c-img" style="width: 400px;height: auto;"
+                    src="images/b.jpg" "></a
                   >
                 </div>
               </div>
@@ -11082,16 +11046,20 @@
               ><span class="fk fkd"><i class="c-icon c-icon-bear-pn"></i></span
               ><span class="pc">1</span></span
             >
+            <span class="page2" target="_self"
+              ><span class="fk fkd"><i class="c-icon c-icon-bear-pn"></i></span
+              ><span class="pc">2</span></span
+            >
+            <span class="page3" target="_self"
+            ><span class="fk fkd"><i class="c-icon c-icon-bear-pn"></i></span
+            ><span class="pc">3</span></span
+          >
             <strong
               ><span class="fk fk_cur"
                 ><i class="c-icon c-icon-bear-p"></i></span
-              ><span class="pc">2</span>
+              ><span class="pc">4</span>
             </strong>
-            <span class="page3" href="./result3.html" target="_self"
-              ><span class="pc">3</span></span
-            ><span class="page4" style="margin-left: 4px;" href="./result3.html" target="_self"
-            ><span class="pc">4</span></span
-          ><a href="javascript:;" target="_self"
+          <a href="javascript:;" target="_self"
               ><span class="fk"><i class="c-icon c-icon-bear-pn"></i></span
               ><span class="pc">5</span></a
             ><a href="javascript:;" target="_self"
@@ -11110,9 +11078,9 @@
               ><span class="fk fkd"><i class="c-icon c-icon-bear-pn"></i></span
               ><span class="pc">10</span></a
             >
-            <span class="page3" href="./result2.html" target="_self"
-              ><span class="n">下一页</span></span
-            >
+            <a
+            href="javascript:;" class="n" target="_self">下一页&gt;</a>
+    </div>
           </div>
           <div id="content_bottom"></div>
         </div>
@@ -11176,20 +11144,16 @@
         };
       }
       let page1 = document.getElementsByClassName("page1")[0];
+      let page2 = document.getElementsByClassName("page2")[0];
       let page3 = document.getElementsByClassName("page3")[0];
-      let page31 = document.getElementsByClassName("page3")[1];
-      let page4 = document.getElementsByClassName("page4")[0];
       page1.onclick = () => {
         window.open("./result.html");
       };
+      page2.onclick = () => {
+        window.open("./result2.html");
+      };
       page3.onclick = () => {
         window.open("./result3.html");
-      };
-      page31.onclick = () => {
-        window.open("./result3.html");
-      };
-      page4.onclick = () => {
-        window.open("./result4.html");
       };
     </script>
     <script src="./cursor-effect.js"></script>

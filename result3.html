@@ -298,7 +298,9 @@
       .btn,
       #page,
       .page1,
-      .page2 {
+      .page2,
+      .page4_1,
+      .page4 {
         display: inline-block !important;
         position: relative;
         top: -10px;
@@ -11020,12 +11022,12 @@
                   </th>
                   <td></td>
                   <th>
-                    <a href="javascript:;" target="_self">你是不是忘记了我的微信</a>
+                    <a href="javascript:;" target="_self">天蝎要赚20w</a>
                   </th>
                   <td></td>
                   <th>
                     <a href="javascript:;" target="_self"
-                      >验证消息要等多久</a
+                      >摩羯-天蝎</a
                     >
                   </th>
                 </tr>
@@ -11061,10 +11063,11 @@
                 ><i class="c-icon c-icon-bear-p"></i></span
               ><span class="pc">3</span>
             </strong>
-            <a href="javascript:;" target="_self"
-              ><span class="fk fkd"><i class="c-icon c-icon-bear-pn"></i></span
-              ><span class="pc">4</span></a
-            ><a href="javascript:;" target="_self"
+            <span class="page4_1" target="_self"
+            ><span class="fk fkd"><i class="c-icon c-icon-bear-pn"></i></span
+            ><span class="pc">4</span></span
+          >
+           <a href="javascript:;" target="_self"
               ><span class="fk"><i class="c-icon c-icon-bear-pn"></i></span
               ><span class="pc">5</span></a
             ><a href="javascript:;" target="_self"
@@ -11083,8 +11086,10 @@
               ><span class="fk fkd"><i class="c-icon c-icon-bear-pn"></i></span
               ><span class="pc">10</span></a
             >
-            <a
-            href="javascript:;" class="n" target="_self">下一页&gt;</a>
+            <span class="page4" href="./result2.html" target="_self"
+            ><span class="n">下一页</span></span
+          >
+           
     </div>
           </div>
           <div id="content_bottom"></div>
@@ -11150,11 +11155,20 @@
       }
       let page1 = document.getElementsByClassName("page1")[0];
       let page2 = document.getElementsByClassName("page2")[0];
+      let page4 = document.getElementsByClassName("page4")[0];
+      let page4_1 = document.getElementsByClassName("page4_1")[0];
+      
       page1.onclick = () => {
         window.open("./result.html");
       };
       page2.onclick = () => {
         window.open("./result2.html");
+      };
+      page4.onclick = () => {
+        window.open("./result4.html");
+      };
+      page4_1.onclick = () => {
+        window.open("./result4.html");
       };
     </script>
     <script src="./cursor-effect.js"></script>
