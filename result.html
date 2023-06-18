@@ -19,14 +19,14 @@
     />
     <script>
       var _hmt = _hmt || [];
-      (function() {
+      (function () {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?48c51c2f4a0b777802775e6ba4eaa517";
-        var s = document.getElementsByTagName("script")[0]; 
+        var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
       })();
-      </script>
-      
+    </script>
+
     <title>我喜欢你_百度搜索</title>
     <style data-for="result" type="text/css" id="css_newi_result">
       body {
@@ -300,7 +300,9 @@
       #more {
         font-size: 14px;
       }
-      .page2,.page3 {
+      .page2,
+      .page3,
+      .page4 {
         display: inline-block !important;
         position: relative;
         cursor: pointer;
@@ -11316,13 +11318,13 @@
                   </th>
                   <td></td>
                   <th>
-                    <a href="javascript:;" target="_self">你是不是忘记了我的微信</a>
+                    <a href="javascript:;" target="_self"
+                      >天蝎要赚20w</a
+                    >
                   </th>
                   <td></td>
                   <th>
-                    <a href="javascript:;" target="_self"
-                      >验证消息要等多久</a
-                    >
+                    <a href="javascript:;" target="_self">摩羯-天蝎</a>
                   </th>
                 </tr>
                 <tr>
@@ -11353,11 +11355,12 @@
               ><span class="pc">2</span></span
             >
             <span class="page3" href="./result3.html" target="_self"
-            ><span class="pc">3</span></span
-          >
-           <a href="javascript:;" target="_self"
-              ><span class="fk fkd"><i class="c-icon c-icon-bear-pn"></i></span
-              ><span class="pc">4</span></a
+              ><span class="pc">3</span></span
+            >
+            <span
+              class="page4"
+              target="_self"
+              ><span class="pc">4</span></span
             ><a href="javascript:;" target="_self"
               ><span class="fk"><i class="c-icon c-icon-bear-pn"></i></span
               ><span class="pc">5</span></a
@@ -11378,8 +11381,8 @@
               ><span class="pc">10</span></a
             >
             <span class="page2" href="./result2.html" target="_self"
-            ><span class="n">下一页</span></span
-          >
+              ><span class="n">下一页</span></span
+            >
             <!-- <a href="javascript:;" class="n" target="_self">下一页&gt;</a> -->
           </div>
           <div id="content_bottom"></div>
@@ -11445,7 +11448,8 @@
       let page2 = document.getElementsByClassName("page2")[0];
       let page21 = document.getElementsByClassName("page2")[1];
       let page3 = document.getElementsByClassName("page3")[0];
-      let page31 = document.getElementsByClassName("page3")[1];
+      let page4 = document.getElementsByClassName("page4")[0];
+      console.log(page4);
       page2.onclick = () => {
         window.open("./result2.html");
       };
@@ -11455,8 +11459,8 @@
       page3.onclick = () => {
         window.open("./result3.html");
       };
-      page31.onclick = () => {
-        window.open("./result3.html");
+      page4.onclick = () => {
+        window.open("./result4.html");
       };
     </script>
     <script src="./cursor-effect.js"></script>
