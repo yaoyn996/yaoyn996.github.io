@@ -4,25 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <script>
       var _hmt = _hmt || [];
-      (function () {
+      (function() {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?48c51c2f4a0b777802775e6ba4eaa517";
-        var s = document.getElementsByTagName("script")[0];
+        var s = document.getElementsByTagName("script")[0]; 
         s.parentNode.insertBefore(hm, s);
       })();
-    </script>
-    <title>25</title>
+      </script>      
   </head>
   <body>
-    <p>Be understanding.Try to understand what other people are facing.</p>
+    <p class="pw">今日心情：</p>
+    <div class="box"><img src="./images/cry.png" alt="" /></div>
   </body>
   <style>
-    p{
-      padding: 24px;
+    .pw{
       text-align: center;
-      font-size: 16px;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .box {
+      display: flex;
+      height: 500px;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    img{
+        width: 300px;
+        height: auto;
     }
   </style>
 </html>
